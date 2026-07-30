@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="wall" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#27352f"/>
+      <stop offset="1" stop-color="#131c18"/>
+    </linearGradient>
+    <linearGradient id="car" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#8b9992"/>
+      <stop offset="1" stop-color="#58675f"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="#e9e4d8"/>
+  <rect x="45" y="45" width="1110" height="540" rx="20" fill="url(#wall)" filter="url(#shadow)"/>
+  <rect x="45" y="45" width="1110" height="540" rx="20" fill="url(#grid)"/>
+
+  <g transform="translate(86 86)">
+    <g transform="translate(0 2)">
+      <circle cx="28" cy="28" r="25" fill="#303f38" stroke="#6e7a73" stroke-width="5"/>
+      <circle cx="28" cy="28" r="10" fill="#e6a93d"/>
+      <circle cx="28" cy="28" r="21" fill="none" stroke="#e6a93d" stroke-opacity=".2" stroke-width="3"/>
+    </g>
+    <text x="74" y="39" fill="#f4f0e7" font-family="Yu Gothic, sans-serif" font-size="32" font-weight="800" letter-spacing="7">整備灯</text>
+    <text x="4" y="88" fill="#e6a93d" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="8">LOCAL GARAGE LOG</text>
+
+    <g transform="translate(0 132)">
+      <text fill="#f4f0e7" font-family="Yu Gothic, sans-serif" font-size="37" font-weight="800">整備の履歴と、次の灯り。</text>
+      <text y="55" fill="#aeb9b3" font-family="Yu Gothic, sans-serif" font-size="20">日付・距離・費用・写真を、端末内の車庫に残す。</text>
+    </g>
+
+    <g transform="translate(0 280)">
+      <rect width="224" height="94" rx="8" fill="#101814" stroke="#536159"/>
+      <text x="18" y="24" fill="#8c9991" font-family="Arial, sans-serif" font-size="10" letter-spacing="3">ODOMETER</text>
+      <text x="18" y="66" fill="#f4f0e7" font-family="Courier New, monospace" font-size="31" font-weight="700" letter-spacing="4">32,500</text>
+      <text x="178" y="66" fill="#9da8a1" font-family="Arial, sans-serif" font-size="11">km</text>
+    </g>
+
+    <g transform="translate(242 280)">
+      <rect width="240" height="94" rx="8" fill="#101814" stroke="#536159"/>
+      <circle cx="36" cy="47" r="16" fill="#e6a93d" stroke="#f1d37e" stroke-width="5"/>
+      <circle cx="36" cy="47" r="28" fill="#e6a93d" opacity=".15" filter="url(#glow)"/>
+      <text x="66" y="31" fill="#8c9991" font-family="Arial, sans-serif" font-size="9" letter-spacing="2">NEXT CHECK</text>
+      <text x="66" y="53" fill="#f4f0e7" font-family="Yu Gothic, sans-serif" font-size="16" font-weight="700">エンジンオイル</text>
+      <text x="66" y="74" fill="#aeb9b3" font-family="Yu Gothic, sans-serif" font-size="11">あと 1,200 km</text>
+    </g>
+
+    <g transform="translate(0 402)">
+      <rect width="176" height="42" rx="5" fill="#805e19" stroke="#b68c38"/>
+      <circle cx="21" cy="21" r="6" fill="#f1d37e"/>
+      <text x="39" y="27" fill="#fff" font-family="Yu Gothic, sans-serif" font-size="13" font-weight="700">内容は端末内</text>
+      <rect x="190" width="180" height="42" rx="5" fill="#2b3932" stroke="#536159"/>
+      <path d="M210 12v18m-7-7 7 7 7-7" fill="none" stroke="#e6a93d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="228" y="27" fill="#fff" font-family="Yu Gothic, sans-serif" font-size="13" font-weight="700">PDF・CSV・編集用</text>
+    </g>
+  </g>
+
+  <g transform="translate(640 79)" filter="url(#shadow)">
+    <rect width="444" height="466" rx="12" fill="#1c2722" stroke="#66726b" stroke-width="8"/>
+    <rect x="26" y="24" width="392" height="418" rx="5" fill="#222f29"/>
+    <path d="M54 345h336" stroke="#c8aa4f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M74 345 120 254h214l38 91" fill="#121916" opacity=".65"/>
+    <g transform="translate(84 236)">
+      <path d="M30 73c11-44 29-78 63-94h114c36 17 57 48 67 94l22 17v48H8V90z" fill="url(#car)"/>
+      <path d="M83-9h133l27 66H50z" fill="#334b4c" stroke="#64736c" stroke-width="9" stroke-linejoin="round"/>
+      <path d="M151-5v63" stroke="#64736c" stroke-width="8"/>
+      <rect x="20" y="78" width="72" height="30" rx="13" fill="#f1d37e"/>
+      <rect x="211" y="78" width="72" height="30" rx="13" fill="#f1d37e"/>
+      <circle cx="67" cy="140" r="34" fill="#111714" stroke="#3c4641" stroke-width="11"/>
+      <circle cx="237" cy="140" r="34" fill="#111714" stroke="#3c4641" stroke-width="11"/>
+      <circle cx="67" cy="140" r="11" fill="#89938d"/>
+      <circle cx="237" cy="140" r="11" fill="#89938d"/>
+      <rect x="119" y="90" width="65" height="28" rx="5" fill="#28352f" stroke="#738078" stroke-width="3"/>
+    </g>
+    <g transform="translate(50 45)">
+      <rect width="342" height="147" rx="8" fill="#101713" stroke="#49574f"/>
+      <text x="20" y="25" fill="#8d9992" font-family="Arial, sans-serif" font-size="9" letter-spacing="3">SERVICE HISTORY</text>
+      <path d="M29 45v84" stroke="#727d76" stroke-width="2"/>
+      <circle cx="29" cy="59" r="8" fill="#e6a93d" stroke="#e8dec9" stroke-width="3"/>
+      <circle cx="29" cy="108" r="8" fill="#68a184" stroke="#e8dec9" stroke-width="3"/>
+      <g transform="translate(50 42)">
+        <rect width="267" height="38" rx="4" fill="#f6f2e8"/>
+        <rect x="12" y="9" width="69" height="8" rx="2" fill="#e6a93d"/>
+        <rect x="12" y="23" width="153" height="5" rx="2" fill="#9ba09b"/>
+        <text x="210" y="25" fill="#24312b" font-family="Courier New, monospace" font-size="11" font-weight="700">31,200 km</text>
+      </g>
+      <g transform="translate(50 91)">
+        <rect width="267" height="38" rx="4" fill="#f6f2e8"/>
+        <rect x="12" y="9" width="52" height="8" rx="2" fill="#68a184"/>
+        <rect x="12" y="23" width="125" height="5" rx="2" fill="#9ba09b"/>
+        <text x="210" y="25" fill="#24312b" font-family="Courier New, monospace" font-size="11" font-weight="700">28,400 km</text>
+      </g>
+    </g>
+    <g transform="translate(367 211)">
+      <circle r="13" fill="#e6a93d" stroke="#f1d37e" stroke-width="5"/>
+      <circle r="28" fill="#e6a93d" opacity=".25" filter="url(#glow)"/>
+    </g>
+  </g>
+</svg>
