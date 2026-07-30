@@ -1,0 +1,16 @@
+{
+  "name": "整備灯",
+  "short_name": "整備灯",
+  "description": "愛車の整備履歴と次回期限を端末内だけで管理する車庫の計器盤",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ebe6da",
+  "theme_color": "#17221e",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
